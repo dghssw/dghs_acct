@@ -1,0 +1,76 @@
+/* 전체 배경과 글꼴 설정 */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #003366, #990000); /* 진한 파랑 + 빨강 */
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 전체 박스 */
+.container {
+  background-color: rgba(0, 0, 0, 0.7); /* 반투명 검정 */
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.6), 0 0 40px rgba(0, 102, 255, 0.6);
+  width: 350px;
+  text-align: center;
+}
+
+/* 제목 */
+.container h1 {
+  margin-bottom: 30px;
+  color: #ff4444; /* 붉은 강조 */
+  font-size: 24px;
+}
+
+/* 라벨 */
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #ffcccb;
+  font-weight: bold;
+}
+
+/* 입력창 */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #0066cc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* 버튼 */
+button {
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+/* 결과 표시 박스 */
+.result-box {
+  margin-top: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #ffffff33;
+  min-height: 50px;
+  font-size: 15px;
+  color: #ffffff;
+}
