@@ -2,7 +2,8 @@
 const studentAccounts = [
   { number: '202301', name: '홍길동', id: 'hong123@school.kr', pw: 'pass1234' },
   { number: '202302', name: '김민지', id: 'kimmj@school.kr', pw: 'minji5678' },
-  { number: '202303', name: '이준호', id: 'leejh@school.kr', pw: 'junho9876' }
+  { number: '202303', name: '이준호', id: 'leejh@school.kr', pw: 'junho9876' },
+  { number: '202304', name: '김용용', id: 'kim@school.kr', pw: 'kim9876' }
 ];
 
 document.getElementById('searchForm').addEventListener('submit', function (e) {
